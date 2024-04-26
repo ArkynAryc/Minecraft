@@ -1,0 +1,32 @@
+conversations:
+  Wei_Yan:
+    quester: "Wei Yan"
+    first: "Wei_yan1"
+   
+    NPC_options:
+      Wei_yan1:
+        text: "Ola sou o Wei Yan, bem vindo novamente aventureiro, no que posso te ajudar?"
+        pointer: "Wei_yan2"
+      Wei_yan3:
+        text: "Eu teria uma missao de urgencia para vc, gostaria de aceitar?"
+        pointer: "Korda3,Korda4"
+      KordaMissAceita:
+        text: "Sua Missão sera encontrar o guerreiro Korda, que foi se aventurar na caverna e nao voltou!"
+      KordaMissNegada:
+        text: "Obrigado, irei esperar alguem capacitado!"
+   
+   
+   
+   
+   
+   
+    player_options:
+      Wei_yan2: 
+        text: "eu queria uma missao para que eu posso me aventurar."
+        pointer: "Wei_yan3" 
+      Korda3:
+        text: "Sim eu aceito sua missao, mas qual seria ela?"
+        pointer: "KordaMissAceita"
+      Korda4:
+        text: "Não,Obrigado!"
+        pointer: "KordaMissNegada"

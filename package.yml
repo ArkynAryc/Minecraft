@@ -1,0 +1,20 @@
+npcs:
+  '4': "Korda"
+  '17': "Wei Yan"
+
+objectives:
+  MatarRainhaSlime: mmobkill Wolf amount:1 notify
+  PegarCoroaSlime: 
+  EncontrarKorda: interact right _Korda 1
+
+events:
+  RainhaSlimeMorta:
+  CoroaSlimeColetada:
+
+condiction:
+#A condicao so sera ativo se tiver um objetivo ativo
+ IniciouAMissao: objective
+ 
+ Objetivo2_CoroaSlime: item emerald:1
+ Objetivo3: and RainhaSlimeMorta, CoroaSlimeColetada
+ Objetivo4:

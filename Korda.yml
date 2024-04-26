@@ -1,0 +1,26 @@
+conversations:
+  Korda:
+    quester: "Korda, O Guerreiro"
+    first: "KordaMissao"
+   
+    NPC_options:
+      KordaMissao:
+        text: "Ola sou o Korda, um guerreiro nomeado pela ordem"
+        pointer: "Korda1"
+        objectives: "EncontrarKorda"
+      Korda2:
+        text: "fui explorar a caverna e acabei encontrando um monstro, no qual me deixou incapacitado de andar, se puder completar a quest por mim"
+        pointer: "Korda3"
+      KordaMissAceita:
+        text: "Sua Missão será matar aquela rainha slime, e me trazer sua coroa"
+   
+   
+   
+   
+    player_options:
+      Korda1: 
+        text: "e o que faz aqui?"
+        pointer: "Korda2" 
+      Korda3:
+        text: "Sim eu aceito sua missao, mas qual seria ela?"
+        pointer: "KordaMissAceita"
